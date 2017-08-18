@@ -1,6 +1,7 @@
 </div>
 </div>
-<!-- <?php echo $thiswww->colID ?> Column //-->
+<!-- <?php echo $thi->colID ?> Column //-->
+<?php echo "saskia ist gut"?>
 <?php $parent = \ContentModel::findByPk($this->sc_parent); ?>
 <?php if ($parent): ?>
 <?php $grid = \Netzmacht\Bootstrap\Grid\Factory::createById($parent->bootstrap_grid, true); ?>
