@@ -1,7 +1,6 @@
 </div>
 </div>
-<!-- <?php echo $thi->colID ?> Column //-->
-<?php ICH COMITTE?>
+<!-- <?php echo $this->colID ?> Column //-->
 <?php $parent = \ContentModel::findByPk($this->sc_parent); ?>
 <?php if ($parent): ?>
 <?php $grid = \Netzmacht\Bootstrap\Grid\Factory::createById($parent->bootstrap_grid, true); ?>
